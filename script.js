@@ -1,5 +1,3 @@
-const { raw } = require("express");
-
 async function fetchdata() {
     const url = "https://randomuser.me/api/";
     const data = await fetch(url);
